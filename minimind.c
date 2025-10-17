@@ -209,7 +209,8 @@ typedef extern void mapping(mincowskispacetime){
 .M25 -> y
 .M26 -> z
 }
-void keyboard(mapping){
+
+inline void keyboard(mapping){
 1 -> Q
 2 -> W
 3 -> E
@@ -237,7 +238,8 @@ void keyboard(mapping){
 25 -> N
 26 -> M
 }
-void deobfuscation(keyboard){    
+    
+extern typedef void deobfuscation(keyboard){    
 0 = [0]
 1 = [1]
 2 = [2][2]
@@ -248,7 +250,7 @@ void deobfuscation(keyboard){
 7 = [7][7][7][7][7][7][7]
 8 = [8][8][8][8][8][8][8][8]
 9 = [9][9][9][9][9][9][9][9][9]
-10 = [10][10][10][10][10][10][10][10][10]
+10 = [10][10][10][10][10][10][10][10][10][10]
 11 = [11][11][11][11][11][11][11][11][11][11][11]
 12 = [12][12][12][12][12][12][12][12][12][12][12][12]
 13 = [13][13][13][13][13][13][13][13][13][13][13][13][13]
